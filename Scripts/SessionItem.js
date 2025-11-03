@@ -4,4 +4,9 @@ export class SessionItem{
         this.sessionList = [];
     }
 
+    // Add an exercise to the session
+    addExercise(exerciseData) {
+    this.sessionList.push(exerciseData);
+  }
+
 }

@@ -68,18 +68,42 @@
       <div class="right-section">
         <!-- main session container card -->
         <div class="Session">
-          <h2>Add Session</h2>
+          <h2 class = headerTitle>Current Session</h2>
           <!-- Actual Session box that contains all exercise nodes/rows -->
           <div class="SessionBox">
-            <!-- An individual exercise item and all of its components -->
-            <div class="ExerciseItem"></div>
+            <div class = "exerciseStack">
+            <!-- An exercise item will be added here -->
+             <!-- An exercise item will be added here -->
+              <!-- An exercise item will be added here -->
+               <!-- An exercise item will be added here -->
+            </div>
+            <form class="exerciseForm">
+              <input
+                type="text"
+                name="exerciseName"
+                placeholder="Exercise name"
+                required
+              />
+              <input type="number" name="reps" placeholder="Reps" />
+              <input type="text" name="time" placeholder="Time (optional)" />
+              <input
+                type="number"
+                name="weight"
+                placeholder="Weight (optional)"
+              />
+              <button class= "addExerciseBtn" type="submit">Add Exercise</button>
+            </form>
           </div>
         </div>
-
-        <div class="sessionLibrary">
-          <h2>Exercise Library</h2>
-        </div>
-      </div>
+         <!-- Exercise Library (right 20% of right section) -->
+    <div class="sessionLibrary">
+      <h4 class = "headerTitle">Exercise Library</h4>
+      <div class="ExerciseItem">Push-Up</div>
+      <div class="ExerciseItem">Squat</div>
+      <div class="ExerciseItem">Deadlift</div>
     </div>
+     
+    </div>
+      
   </body>
 </html>
