@@ -49,19 +49,6 @@ body {
   border-radius: 10px;
 }
 
-.runner-graphic {
-  grid-area: runner;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.runner-graphic img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
 .subscription {
   grid-area: subscription;
   background-color: #cce4ff;
